@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170323045723) do
+ActiveRecord::Schema.define(version: 20170323050442) do
+
+  create_table "competences", force: :cascade do |t|
+    t.string   "title"
+    t.string   "author"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["title"], name: "index_competences_on_title", unique: true
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
