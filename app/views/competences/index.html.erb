@@ -27,5 +27,7 @@
 </table>
 
 <br>
+<% if policy(Competence).new? %>
+    <%= link_to 'New Competence', new_competence_path %>
+<% end %>
 
-<%= link_to 'New Competence', new_competence_path %>
