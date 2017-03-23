@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/compet.iml" filepath="$PROJECT_DIR$/.idea/compet.iml" />
       <module fileurl="file://$PROJECT_DIR$/../profport-master/.idea/profport-master.iml" filepath="$PROJECT_DIR$/../profport-master/.idea/profport-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../profport-train/.idea/profport-train.iml" filepath="$PROJECT_DIR$/../profport-train/.idea/profport-train.iml" />
+      <module fileurl="file://$USER_HOME$/Загрузки/profport-train-last/.idea/profport-train.iml" filepath="$USER_HOME$/Загрузки/profport-train-last/.idea/profport-train.iml" />
       <module fileurl="file://$PROJECT_DIR$/../taff/.idea/taff.iml" filepath="$PROJECT_DIR$/../taff/.idea/taff.iml" />
     </modules>
   </component>
