@@ -1,10 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Competences</h1>
+<h1>Список компетенций</h1>
 
-<table>
+<table class="table table-hover">
   <thead>
-    <tr>
+    <tr class="panel panel-heading">
       <th>Title</th>
       <th>Author</th>
       <th>Skillrate</th>
@@ -18,9 +18,9 @@
         <td><%= competence.title %></td>
         <td><%= competence.author %></td>
         <td><%= competence.skillrate %></td>
-        <td><%= link_to 'Show', competence %></td>
-        <td><%= link_to 'Edit', edit_competence_path(competence) %></td>
-        <td><%= link_to 'Destroy', competence, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to '  Показать ', competence, class: 'glyphicon glyphicon-triangle-right'  %></td>
+        <td><%= link_to '  Редактировать ', edit_competence_path(competence), class: 'glyphicon glyphicon-pencil' %></td>
+        <td><%= link_to '  Удалить ', competence, method: :delete, data: { confirm: 'вы уверены?' }, class: 'glyphicon glyphicon-remove'  %></td>
       </tr>
     <% end %>
   </tbody>
