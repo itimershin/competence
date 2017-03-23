@@ -1,8 +1,7 @@
 class CreateCompetences < ActiveRecord::Migration[5.0]
-  VALID_REGEXP = /([A-Z])+\s/i
-  def change
+    def change
     create_table :competences do |t|
-      t.string :title, format: { with: VALID_REGEXP }
+      t.string :title
       t.string :author
 
       t.timestamps
