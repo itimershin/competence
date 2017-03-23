@@ -1,0 +1,6 @@
+%tr
+  %td= competence.name
+  %td= competence.author
+  %td= link_to '  Показать ', competence, class: 'glyphicon glyphicon-triangle-right'
+  %td= link_to '  Редактировать ', edit_competence_path(competence), class: 'glyphicon glyphicon-pencil'
+  %td= link_to '  Удалить ', competence, method: :delete, data: { confirm: 'вы уверены?' }, class: 'glyphicon glyphicon-remove'

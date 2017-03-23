@@ -28,6 +28,6 @@
 
 <br>
 <% if policy(Competence).new? %>
-    <%= link_to 'New Competence', new_competence_path %>
+    <%= render 'form', competence: Competence.new %>
 <% end %>
 
